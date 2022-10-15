@@ -4,7 +4,6 @@
   </a>
 </p>  
 
-
 # 🖥 Latihan VCS Step By Step 
 
 <p align="center">
@@ -45,5 +44,68 @@ Kemudian Kalian akan diarahkan pada halaman untuk membuat Repository baru.
 Lalu kalian buat folder di Local Disk komputer kalian.
 
 ![imagefolder](images/5.png)
+
+> ## :warning: SEDUH KOPI DAN BELI ROKOK :warning:
+> Sebelum lanjut, disarankan untuk membuat kopi dan rokok dulu. Karena tahap dibawah memiliki beberapa efek samping, seperti:
+> - Kepala Bergetar
+> - Nyeri Dibagian Badan Belakang
+> - Kedutan Bahkan Kejang 
+
+Setelah kalian buat folder baru **Klik Kanan** pada **Folder** tersebut lalu klik **Git Bash Here** maka akan muncul Pop-up aplikasi Git Bash
+
+![imagegitbash](images/6.png)
+
+Buat **Folder Baru** dan mengarahkan **Git Bash** pada directory file tersebut
+>$mkdir latihan1
+>
+>$cd latihan1
+
+![imagemkdir](images/7.png)
+
+Tambahkan Judul atau **Header** ke dalam file **README.md** yang nantinya akan dimasukkan ke dalam **Repository** yang telah kita buat
+>$echo "#LatihanVCS" >> README.md
+
+![image](images/8.png)
+
+Kemudian buaat Repository lokal menggunakan perintah ***git init***
+>$ git init
+
+![imageinit](images/9.png)
+
+Masukkan file **README.md** yang beri judul tadi ke dalam **Repository** menggunakan perintah ***git add***
+>$git add README.md
+
+![images10](images/10.png)
+
+Setelah ditambahkan, kalian harus menyimpan dan mengkonfirmasi perubahan dengan komentar menggunakan perintah ***git commit -m "contoh commit"***
+>$ git commit -m "Commit Pertama"
+
+![imagecommit](images/11.png)
+
+Setelah itu menambahkan remote repository. remote Repository merupakan repository server yang akan digunakan untuk menyimpan setiap perubahan pada local repository, sehingga dapat diakses oleh banyak user. dengan menggunakan perintah ***git remote add 'nama' 'url'***
+>$git remote add origin https://github.com/arifkathree/tutorialvcs.git
+
+![imageremote](images/12.png)
+
+Dan untuk mengirim perubahan pada local Repository ke server gunakan perintah ***git push -u 'nama' 'branch'***
+>$git push -u origin master
+
+![imagepush](images/13.png)
+
+Terakhir kita bisa cek di Repository pada Website [Github](https://github.com)
+
+## Roadmap
+- [x] Login / Sign Up
+- [x] Buat Repository
+- [x] Buat Folder dan Bash Here
+- [x] Buat Folder dan Arahkan Directory
+- [x] Buat Judul Pertama (echo "#Bla Bla Bla" >> README.md)
+- [x] Inisialiasi .git (git init)
+- [x] git add README.md
+- [x] Keterangan Konfirmasi (git commit -m "sample commit")
+- [x] Menghubungkan Repository (git remote add origin url)
+- [x] Upload Perubahan (git push -u origin master)
+  
+
 
 
