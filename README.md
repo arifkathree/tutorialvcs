@@ -1,3 +1,9 @@
+<p align="center">
+  <a href="https://github.com">
+      <img width="200" src="https://play-lh.googleusercontent.com/PCpXdqvUWfCW1mXhH1Y_98yBpgsWxuTSTofy3NGMo9yBTATDyzVkqU580bfSln50bFU">
+  </a>
+</p>  
+
 # 🖥 Latihan VCS Step By Step
 
 > ## Download Git Bash
